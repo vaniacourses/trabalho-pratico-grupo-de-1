@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.2.0">
+  <diagram name="Página-1" id="EbrOmHeDn_ZLtRsP8--C">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-1" value="Persistencia_Banco_de_Dados" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="682" width="285" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-2" value="Dominio_Modelos" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="247" y="480" width="330" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-3" value="Aplicacao_Logica_de_Negocio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="198" width="583" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-4" value="Apresentacao_Interface_REST" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="20" width="330" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-5" value="API REST - Django REST Framework Views" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="220" y="45" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-6" value="Views / Controllers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="251" y="223" width="198" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-7" value="UserHelper - Facade de Permissoes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="327" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-8" value="Serializers - DTO" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="339" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-9" value="Models Product Pizza Drink Order PaymentMethod User Client Admin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="282" y="505" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-10" value="ORM Django" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="339" y="707" width="146" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-11" value="Banco de Dados Relacional PostgreSQL" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="830" width="215" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-5" target="5NhzzFmHZeVo9KvnyoEY-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-6" target="5NhzzFmHZeVo9KvnyoEY-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-6" target="5NhzzFmHZeVo9KvnyoEY-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-6" target="5NhzzFmHZeVo9KvnyoEY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.66;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-8" target="5NhzzFmHZeVo9KvnyoEY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-9" target="5NhzzFmHZeVo9KvnyoEY-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5NhzzFmHZeVo9KvnyoEY-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="5NhzzFmHZeVo9KvnyoEY-10" target="5NhzzFmHZeVo9KvnyoEY-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

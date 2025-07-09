@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.2.0">
+  <diagram name="Página-1" id="unE_k2jIo2sshYzTRxnN">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-1" value="Administrador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="35" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-2" value="API_REST" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="453" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-3" value="AdminsView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="653" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-4" value="UserHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="853" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-5" value="ProductModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-6" value="PizzaModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1253" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-7" value="DrinkModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1453" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-8" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1653" y="20" width="150" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-9" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="517" y="383" width="1222" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-10" value="[Produto é Pizza]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="lxfL0njgRfeqa5_mBJp5-9">
+          <mxGeometry x="30" width="1192" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-11" value="[Produto é Drink]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="lxfL0njgRfeqa5_mBJp5-9">
+          <mxGeometry y="194" width="1222" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-12" value="POST /products com dados do produto" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-1" target="lxfL0njgRfeqa5_mBJp5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-13" value="Verifica se usuário é administrador" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-2" target="lxfL0njgRfeqa5_mBJp5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-14" value="Permissão concedida" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-4" target="lxfL0njgRfeqa5_mBJp5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-15" value="Cria registro do produto (nome, valor, imagem)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-2" target="lxfL0njgRfeqa5_mBJp5-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="837" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-16" value="Insert product" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-5" target="lxfL0njgRfeqa5_mBJp5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1437" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-17" value="Confirmação" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-8" target="lxfL0njgRfeqa5_mBJp5-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-18" value="Cria registro pizza associado ao produto" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-2" target="lxfL0njgRfeqa5_mBJp5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="937" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-19" value="Insert pizza" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-6" target="lxfL0njgRfeqa5_mBJp5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1537" y="504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-20" value="Confirmação" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-8" target="lxfL0njgRfeqa5_mBJp5-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-21" value="Cria registro drink associado ao produto" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-2" target="lxfL0njgRfeqa5_mBJp5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1037" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-22" value="Insert drink" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-7" target="lxfL0njgRfeqa5_mBJp5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1637" y="693" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-23" value="Confirmação" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-8" target="lxfL0njgRfeqa5_mBJp5-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-24" value="Retorna produto criado" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-5" target="lxfL0njgRfeqa5_mBJp5-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lxfL0njgRfeqa5_mBJp5-25" value="Resposta sucesso (201 Created + dados do produto)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="lxfL0njgRfeqa5_mBJp5-2" target="lxfL0njgRfeqa5_mBJp5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="847" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
