@@ -13,7 +13,7 @@ class OrderSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Order
-        fields = ("id", "ordered_at", "client", "payment_method")
+        fields = ("id", "ordered_at", "client", "payment_method", "status")
         
 class OrderWithProductsSerializer(serializers.ModelSerializer):
     
@@ -23,7 +23,7 @@ class OrderWithProductsSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Order
-        fields = ("id", "ordered_at", "client", "payment_method", "products")
+        fields = ("id", "ordered_at", "client", "payment_method", "products", "status")
     
     def get_payment_method(self, obj):
         return obj.payment_method.number
